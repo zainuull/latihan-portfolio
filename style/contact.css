@@ -1,0 +1,61 @@
+.title-contact {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.connect {
+  color: brown;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: brown;
+  padding: 10px;
+}
+
+.form2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.nama {
+  width: 50%;
+}
+
+.email {
+  width: 50%;
+}
+
+.form-item {
+  padding: 5px;
+  border-radius: 5px;
+  border-color: white;
+  background-color: transparent;
+  outline: none;
+}
+
+.form-item:hover {
+  border-color: red;
+  transition: 0.5s;
+}
+
+
+.btn-contact {
+  width: 200px;
+  background-color: green;
+  border: 0px;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.btn-contact:hover {
+  background-color: rgb(1, 85, 1);
+  transition: 0.3s ease-in-out;
+}

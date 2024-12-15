@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  gap: 50px;
+}
+
+.profil {
+  width: 300px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.description {
+  width: 350px;
+}
